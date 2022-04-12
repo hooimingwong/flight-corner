@@ -142,19 +142,19 @@
   
                   <label for="p2-age">Age:</label>
                       <input type="number" name="p2-age" required min="18">
-                      <div class="invalid-feedback">Please fill out this field.</div> 
+                      <div class="invalid-feedback">Please enter your age. You need to be over 18 to make a booking.</div> 
   
                       <!-- phone-->
                       <div>
                   <label for="phone"> <i class="material-icons">&#xe324;</i>Mobile: </label>
                   <input type="phone" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="04xx-xxx-xxx" size="30" required>
-                  <div class="invalid-feedback">Please fill out this field.</div>
+                  <div class="invalid-feedback">Please enter a mobile phone number with correct pattern.</div>
               </div>
 <br>              
                   <!-- email-->
                       <label for="email"> <i class="material-icons">&#xe554;</i>Email: </label>
                       <input type="email" id="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" required>
-                          <div class="invalid-feedback">Please use a valid email.</div>
+                          <div class="invalid-feedback">Please use a valid email address.</div>
 <br>                  
                   <label for="foodpref">Food Preferences</label>
                   <select name="foodpref">
@@ -190,7 +190,7 @@
 
             <label for="child-age">Age:</label>
             <input type="number" name="child-age" required min="2" max="11">
-            <div class="invalid-feedback">Please fill out this field.</div>
+            <div class="invalid-feedback">Please enter child age between 2 and 11.</div>
             
             <label for="child-meal">Child's Meal</label>
                 <select name="child-meal">
@@ -226,7 +226,7 @@
 
 <label for="child-age">Age:</label>
 <input type="number" name="child-age" required min="0" max="2">
-<div class="invalid-feedback">Please fill out this field.</div>
+<div class="invalid-feedback">Please enter an infant age between 0 and 2.</div>
 
 <label for="child-meal">Infant's Meal</label>
     <select name="child-meal">
@@ -242,7 +242,7 @@
                 <div>
                 <label for="address"><i class="material-icons">&#xe563;</i>Address:</label>
                 <textarea class="form-control" rows="2" id="address" name ="address" required></textarea>
-                <div class="invalid-feedback">Please fill out this field.</div>
+                <div class="invalid-feedback">Please enter your home address.</div>
                 </div>
                 <!-- Country-->
                   <select name="country">
